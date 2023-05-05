@@ -1,0 +1,177 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.summit-logo{
+    display: flex;
+    position: relative;
+    right: 40px;
+}
+.main{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    top: 50px;
+}
+.main-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-left h2{
+    color: rgb(231,136,33);
+    font-size: 30px;
+}
+.main-right form legend{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+    color: rgb(231,136,33);
+}
+form{
+    padding: 25px;
+    height: 400px;
+    width: 280px;
+    box-shadow: 0px 0px 15px white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+}
+form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+form button{
+    align-self: center;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(231,136,33);
+}
+form input{
+    height: 22px;
+    border-radius: 6px;
+}
+form textarea{
+    height: 40px;
+    border-radius: 6px;
+}
+form button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.hashtag{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    font-weight: 550;
+    color: rgb(245, 151, 51);
+}
+.events-header{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.other-events{
+    position: relative;
+    top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    justify-content: center;
+    gap: 20px;
+}
+.event{
+    padding: 10px;
+    height: 150px;
+    background-color: rgb(251, 167, 10);
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event span{
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: underline solid;
+}
+.event:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px white;
+}
+.merch-header{
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+.merch-items{
+    position: relative;
+    top: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,280px);
+    justify-content: center;
+    gap: 20px;
+}
+.items img{
+    border-radius: 8px;
+}
+.items img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px white;
+}
+footer{
+    position: relative;
+    top: 280px;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li:hover{
+    cursor: pointer;
+}
+#list-head{
+    font-size: 20px;
+    font-weight: 550;
+}
+.social-media-handles{
+    display: flex;
+    gap: 20px;
+}
+.social-media-handles li{
+    font-size: 22px;
+}
+.footer-logo{
+    position: relative;
+    top: 15px;
+}
+
+/* For Tablets */
+@media screen and (max-width:768px){
+    body{
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 10px;
+    }
+}
